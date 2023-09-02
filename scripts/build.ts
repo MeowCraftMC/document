@@ -7,7 +7,6 @@ import YAML from 'js-yaml';
 import metadataParser from 'markdown-yaml-metadata-parser';
 
 import { renderMdx } from "./mdx.ts";
-import moment from "moment";
 
 const PUBLIC_DIR = "public";
 const DOC_DIR = "doc";

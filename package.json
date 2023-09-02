@@ -1,7 +1,6 @@
 {
   "name": "documents",
   "version": "1.0.0",
-  "description": "Data for https://one-among.us",
   "main": "scripts/build.ts",
   "type": "module",
   "private": true,
@@ -19,7 +18,6 @@
     "fs-extra": "^11.1.0",
     "js-yaml": "^4.1.0",
     "markdown-yaml-metadata-parser": "^3.0.0",
-    "moment": "^2.29.4",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "xdm": "^3.4.0"
