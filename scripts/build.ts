@@ -18,8 +18,7 @@ const docs = fs.readdirSync(docDir, "utf-8");
 
 function buildPages() {
     docs.forEach(function (e, i) {
-        var markdown = metadataParser(fs.readFileSync(path.join(projectRoot, DOC_DIR, e), "utf-8")).content;
-        console.log(markdown);
+        var markdown = metadataParser(fs.readFileSync(path.join(docDir, e), "utf-8")).content;
         markdown = autocorrect.formatFor(markdown, 'markdown');
         
         var result = renderMdx(markdown);
