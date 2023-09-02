@@ -22,13 +22,13 @@ function buildPages() {
         markdown = autocorrect.formatFor(markdown, 'markdown');
         
         var result = renderMdx(markdown);
-        fs.ensureDir(path.join(projectRoot, DIST_DIR));
+        fs.ensureDirSync(path.join(projectRoot, DIST_DIR));
         fs.writeFileSync(path.join(projectRoot, DIST_DIR, `${e}.json`), JSON.stringify(result));
     });
 }
 
 function buildPublic() {
-    fs.ensureDir(path.join(projectRoot, PUBLIC_DIR));
+    fs.ensureDirSync(path.join(projectRoot, PUBLIC_DIR));
     fs.copySync(path.join(projectRoot, PUBLIC_DIR), path.join(projectRoot, DIST_DIR));
 }
 
