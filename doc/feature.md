@@ -70,39 +70,39 @@ Ver: 1.0 **（2023.9.20 更新）**
   
     由 [Elihuso]() 的 [SimpleTeleport](https://github.com/MeowCraftMC/SimpleTeleport) 插件驱动。
     
-    * `tpa`
-      用法：`/tpa <玩家名>`
-      向指定玩家发送一次传送请求。如果请求被同意，则传送至同意请求的玩家。
+    * `tpa`  
+      用法：`/tpa <玩家名>`  
+      向指定玩家发送一次传送请求。如果请求被同意，则传送至同意请求的玩家。  
       
-    * `tpacc`
-      用法：`/tpacc [玩家名]`
-      别名：`/tpaccept`
-      同意指定玩家的传送请求。如果不指定玩家名，则同意所有未处理的传送请求。
+    * `tpacc`  
+      用法：`/tpacc [玩家名]`  
+      别名：`/tpaccept`  
+      同意指定玩家的传送请求。如果不指定玩家名，则同意所有未处理的传送请求。  
       
-    * `tpdn`：
-      用法：`/tpdn [玩家名]`
-      别名：`/tpdeny`
-      拒绝指定玩家的传送请求。如果不指定玩家名，则拒绝所有未处理的传送请求。
+    * `tpdn`：  
+      用法：`/tpdn [玩家名]`  
+      别名：`/tpdeny`  
+      拒绝指定玩家的传送请求。如果不指定玩家名，则拒绝所有未处理的传送请求。  
       
-    * `tpcancel`：
-      用法：`/tpcancel [玩家名]`
-      取消向指定玩家发送的传送请求。如果不指定玩家名，则取消自己所有的传送请求。
+    * `tpcancel`：  
+      用法：`/tpcancel [玩家名]`  
+      取消向指定玩家发送的传送请求。如果不指定玩家名，则取消自己所有的传送请求。  
     
 - 返回
   
     由 [Elihuso]() 的 [Back-Refactor](https://github.com/MeowCraftMC/Back-Refactor) 插件驱动。
     
-    * `back`：
-        用法：`/back`
-        返回传送之前的位置，包括使用传送命令或者重生导致的传送。
+    * `back`：  
+        用法：`/back`  
+        返回传送之前的位置，包括使用传送命令或者重生导致的传送。  
     
 - 回到世界重生点
   
     由 [Elihuso]() 的 [SimpleTeleport](https://github.com/MeowCraftMC/SimpleTeleport) 插件驱动。
     
-    * `spawn`：
-        用法：`/spawn` 
-        返回所在世界的默认重生点。
+    * `spawn`：  
+        用法：`/spawn`   
+        返回所在世界的默认重生点。  
 
 
 
