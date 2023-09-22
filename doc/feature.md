@@ -68,7 +68,7 @@ Ver: 1.0 **（2023.9.20 更新）**
 
 - 传送请求
   
-    由 [Elihuso]() 的 [SimpleTeleport](https://github.com/MeowCraftMC/SimpleTeleport) 插件驱动。
+    由 [Elihuso](https://github.com/LS-KR) 的 [SimpleTeleport](https://github.com/MeowCraftMC/SimpleTeleport) 插件驱动。
     
     * `tpa`  
       用法：`/tpa <玩家名>`  
@@ -90,7 +90,7 @@ Ver: 1.0 **（2023.9.20 更新）**
     
 - 返回
   
-    由 [Elihuso]() 的 [Back-Refactor](https://github.com/MeowCraftMC/Back-Refactor) 插件驱动。
+    由 [Elihuso](https://github.com/LS-KR) 的 [Back-Refactor](https://github.com/MeowCraftMC/Back-Refactor) 插件驱动。
     
     * `back`：  
         用法：`/back`  
@@ -98,7 +98,7 @@ Ver: 1.0 **（2023.9.20 更新）**
     
 - 回到世界重生点
   
-    由 [Elihuso]() 的 [SimpleTeleport](https://github.com/MeowCraftMC/SimpleTeleport) 插件驱动。
+    由 [Elihuso](https://github.com/LS-KR) 的 [SimpleTeleport](https://github.com/MeowCraftMC/SimpleTeleport) 插件驱动。
     
     * `spawn`：  
         用法：`/spawn`   
@@ -200,7 +200,7 @@ Ver: 1.0 **（2023.9.20 更新）**
 
 #### 发射器/投掷器增强
 
-由 [Elihuso]() 的 [Dispenser-Mining-Paper](https://github.com/MeowCraftMC/Dispenser-Mining-Paper) 插件驱动。
+由 [Elihuso](https://github.com/LS-KR) 的 [Dispenser-Mining-Paper](https://github.com/MeowCraftMC/Dispenser-Mining-Paper) 插件驱动。
 
 - 当发射器发射斧、镐、锹、锄和剑时会尝试挖掘前方的方块。
 
