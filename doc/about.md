@@ -8,7 +8,7 @@
 
 ## 加入游玩
 
-进入 [Telegram 群](https://t.me/+p5gxI6FkStgxMGM5) 以获取服务器白名单权限。
+进入 [Telegram 群](https://t.me/+p5gxI6FkStgxMGM5) 以申请服务器白名单权限。
 
 
 
