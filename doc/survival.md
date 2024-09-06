@@ -1,6 +1,6 @@
 # 生存服务器
 
-Ver: 1.1 **（2024.1.30 更新）**
+Ver: 1.2 **（2024.9.6 更新）**
 
 
 
@@ -28,43 +28,42 @@ Ver: 1.1 **（2024.1.30 更新）**
 
 ### 传送命令
 
+由 [Elihuso](https://github.com/LS-KR) 的 [SimpleTeleport](https://github.com/MeowCraftMC/SimpleTeleport) 插件驱动。
+
 - 传送请求
   
-    由 [Elihuso](https://github.com/LS-KR) 的 [SimpleTeleport](https://github.com/MeowCraftMC/SimpleTeleport) 插件驱动。
-    
-    * `tpa`  
-      用法：`/tpa <玩家名>`  
-      向指定玩家发送一次传送请求。如果请求被同意，则传送至同意请求的玩家。  
-      
-    * `tpacc`  
-      用法：`/tpacc [玩家名]`  
-      别名：`/tpaccept`  
-      同意指定玩家的传送请求。如果不指定玩家名，则同意所有未处理的传送请求。  
-      
-    * `tpdn`：  
-      用法：`/tpdn [玩家名]`  
-      别名：`/tpdeny`  
-      拒绝指定玩家的传送请求。如果不指定玩家名，则拒绝所有未处理的传送请求。  
-      
-    * `tpcancel`：  
-      用法：`/tpcancel [玩家名]`  
-      取消向指定玩家发送的传送请求。如果不指定玩家名，则取消自己所有的传送请求。  
-    
-- 返回
+    * `/tpa <玩家名>`  
+      请求传送到指定玩家的位置。  
+    * `/tphere <玩家名>`  
+      请求指定玩家传送到自己的位置。  
+    * `/tpaccept [玩家名]`  
+      别名：`tpacc`  
+      同意传送请求。如果不指定玩家名，则同意所有未处理的传送请求。  
+    * `/tpdeny [玩家名]`  
+      别名：`tpdn`  
+      拒绝传送请求。如果不指定玩家名，则拒绝所有未处理的传送请求。  
+    * `/tpcancel [玩家名]`  
+      取消向指定玩家发送的传送请求。如果不指定玩家名，则取消自己发出的所有传送请求。  
+- 快速返回
   
-    由 [Elihuso](https://github.com/LS-KR) 的 [Back-Refactor](https://github.com/MeowCraftMC/Back-Refactor) 插件驱动。
-    
-    * `back`：  
-        用法：`/back`  
-        返回传送之前的位置，包括使用传送命令或者重生导致的传送。  
-    
-- 回到世界重生点
+    * `/back`  
+        返回传送之前的位置。
+    * `/back preference <传送类型> <true|false>`  
+        设置位置记录偏好，可以选择只记录某些情况下的位置，有如下选项：
+        * GAME_PLAY：起床或者下船、下矿车
+        * ENDER_TELEPORT：使用末影珍珠或者紫颂果
+        * PORTALS：使用传送门（包括末地折跃门）
+        * DEATH（默认开启）：玩家被杀死
+        * SYSTEM（默认开启）：使用命令传送
+        * OTHER：其他原因产生的传送
+- 世界传送命令
   
-    由 [Elihuso](https://github.com/LS-KR) 的 [SimpleTeleport](https://github.com/MeowCraftMC/SimpleTeleport) 插件驱动。
-    
-    * `spawn`：  
-        用法：`/spawn`   
+    * `/spawn`  
         返回所在世界的默认重生点。  
+    * `/bed`  
+        返回床或重生锚所记录的重生点。
+    * `/top`  
+        传送到当前坐标顶端的露天位置。
 
 
 
