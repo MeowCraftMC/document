@@ -1,8 +1,6 @@
 # 猫托邦 Catopia Minecraft 服务器
 
-猫托邦是 Java 版 1.21.1 服务器。
-
-具有基岩版支持、全局白名单、正版和 LittleSkin 混合验证。
+猫托邦 Catopia Minecraft 服务器具有基岩版支持、全局白名单、正版和 LittleSkin 混合验证特性。
 
 
 
@@ -12,16 +10,9 @@
 
 
 
-由在服务器的玩家推荐和邀请，加入服务器讨论群并获取白名单。
-
-
+由服务器中的玩家推荐和邀请，由**管理猫**及以上级别的玩家发放白名单。  
+服务器附属群聊可以在游戏内的服务器链接页面找到和加入。  
 
 ## Staff
 
-- [qyl27](https://github.com/qyl27)
-- [Elihuso Quigley](https://github.com/LS-KR)
-- *因隐私原因隐藏*
-- *因隐私原因隐藏*
-- [SakuraKooi](https://github.com/SakuraKoi)
 
-和大家混熟了或许也可以变成 Staff （？）
