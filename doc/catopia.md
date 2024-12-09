@@ -4,9 +4,9 @@
 
 
 
-[服务器公告](doc/catopia/announcements)
+[服务器公告](doc/catopia-announcements)
 
-[更新日志](doc/catopia/update-log)
+[更新日志](doc/catopia-update-log)
 
 
 
@@ -23,8 +23,8 @@
 
 ## 服务器详情
 
-- [生存服务器（主服）](doc/catopia/survival)
-- [创造服务器（试验场）](doc/catopia/creative)
+- [生存服务器（主服）](doc/catopia-survival)
+- [创造服务器（试验场）](doc/catopia-creative)
 - 模组服务器
-  - [【历史版本】V2](doc/catopia/mods-v2)
+  - [【历史版本】V2](doc/catopia-mods-v2)
 
