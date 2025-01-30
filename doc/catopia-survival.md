@@ -162,11 +162,35 @@
 
 ### 发射器/投掷器增强
 
-由 [Elihuso](https://github.com/LS-KR) 的 [Dispenser-Mining-Paper](https://github.com/MeowCraftMC/Dispenser-Mining-Paper) 插件驱动。
+由 [Elihuso](https://github.com/LS-KR) 的 [Mining-Dispenser](https://github.com/MeowCraftMC/Mining-Dispenser) 插件驱动。
 
-当发射器发射斧、镐、锹、锄和剑时会尝试挖掘前方的方块。
-如果前方为空气，则发射失败；
-如果前方为不可用此种工具挖掘的方块，则作为掉落物发射。  
+添加了破坏者：
+
+```
+CCC
+CPC
+CRC
+C：圆石
+P：钻石镐
+R：红石
+```
+
+被激活时用库存里的工具破坏面前的方块。
+
+
+
+添加了放置者：
+
+```
+CCC
+CPC
+CRC
+C：圆石
+P：钓竿
+R：红石
+```
+
+被激活时把库存里的方块放置到面前。
 
 
 
